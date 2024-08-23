@@ -1,5 +1,11 @@
 ## Problem 
-Implement factory design pattern using Pet as the factory interface.  The interface implements two methods: makeSound() and play().
+ Fork the existing folder.
+ Display number of lives if Cat is selected; breed if Dog is selected.
+ Alter the choice selection.  3 means Exit. Make the prompt infinite unless terminated by 3 (Exit).
+ Submit the your own version gitHub URL here.
+
+
+Forked Repository (ReadMe): Implement factory design pattern using Pet as the factory interface.  The interface implements two methods: makeSound() and play().
 
 Dog and Cat are concrete objects that implements Pet interface.
 

@@ -11,12 +11,9 @@ public class Dog implements Pet {
         this.breed = breed;
     }
     @Override
-    public String makeSound() {
-        return "Aw, aw!";
+    public String prompt() {
+        return getBreed();
     }
 
-    @Override
-    public String play() {
-        return "Catching objects that you throw!";
-    }
+   
 }

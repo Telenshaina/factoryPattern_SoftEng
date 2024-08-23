@@ -12,12 +12,9 @@ public class Cat implements Pet {
     }
 
     @Override
-    public String makeSound() {
-        return "Meow, meow!";
+    public String prompt() {
+        return Integer.toString(getNoOfLives());
     }
 
-    @Override
-    public String play() {
-        return "Catching/pursuing moving objects!";
-    }
+
 }
